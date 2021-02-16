@@ -19,3 +19,7 @@ fi
 ## check memory
 
 free -m
+
+## check the OS version
+
+cat /etc/*release
