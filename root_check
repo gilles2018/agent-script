@@ -5,7 +5,7 @@ then
 echo
 echo "You need root access"
 echo
-exit 1
+exit 0
 fi
 
 ## Check number of cpu
