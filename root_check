@@ -1,3 +1,4 @@
+
 #!?bin/bash
 
 if [ ${UID} -ne 0 ]
@@ -23,3 +24,8 @@ free -m
 ## check the OS version
 
 cat /etc/*release
+
+
+## check the hard drive
+
+lsblk
